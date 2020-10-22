@@ -1,0 +1,52 @@
+[debug] [2020-10-22T20:31:31.557Z] ----------------------------------------------------------------------
+[debug] [2020-10-22T20:31:31.560Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-10-22T20:31:31.561Z] CLI Version:   8.11.2
+[debug] [2020-10-22T20:31:31.561Z] Platform:      darwin
+[debug] [2020-10-22T20:31:31.561Z] Node Version:  v12.18.4
+[debug] [2020-10-22T20:31:31.562Z] Time:          Thu Oct 22 2020 23:31:31 GMT+0300 (GMT+03:00)
+[debug] [2020-10-22T20:31:31.562Z] ----------------------------------------------------------------------
+[debug] [2020-10-22T20:31:31.563Z] 
+[debug] [2020-10-22T20:31:31.572Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-22T20:31:31.573Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/oguzhanyildirim/Desktop/PROJECTS/vue-clients-fire-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using vue-clients-list. 
+[debug] [2020-10-22T20:31:55.021Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-clients-list  
+ 
+[debug] [2020-10-22T20:31:55.582Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Oct 2020 20:31:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] ✔  Database Rules for  have been downloaded to database.rules.json. 
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
